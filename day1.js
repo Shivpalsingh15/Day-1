@@ -12,6 +12,8 @@ ctrl + l,k= clear
 Variables is like containers which store data.
 Is simply a storage location.
 
+
+
 3) Data types in js
 
 to check type - typeof
@@ -99,3 +101,38 @@ undefined = not assign any value to variable// mujhe nhi pata
 Null= The Null value represent the intentional absence of any object value.
 
  */
+
+// 1. console.log
+
+console.log("Js works")    //output: Js works
+console.log("Welcome to programming.") //output: Welcome to programming.
+
+
+//2. Variables
+
+let x = 123
+console.log('x:', x)  //output: x: 123
+
+let arr = [4, 8, 9, 7]
+console.log('arr:', arr) //output: arr: [ 4, 8, 9, 7 ]
+
+let string = "way to full stack."
+console.log('string:', string)  //output: string: way to full stack.
+
+let object = {name: "shiv", age: "22"}
+console.log('object:', object)   //output: object: { name: 'shiv', age: '22' }
+console.log('object:', object.name) //output: object: shiv
+
+
+// 3. datatype check
+
+
+let a = 123;
+console.log("x:", typeof(a)); //output: x: number
+
+let arr1 = [4, 8, 9, 7]
+console.log('arr1:', typeof(arr1)) //output: object
+
+
+let obj = {name: "shiv", age: "22"}
+console.log('obj:', typeof(obj))   //output: object
