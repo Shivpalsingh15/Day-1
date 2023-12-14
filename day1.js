@@ -136,3 +136,35 @@ console.log('arr1:', typeof(arr1)) //output: object
 
 let obj = {name: "shiv", age: "22"}
 console.log('obj:', typeof(obj))   //output: object
+
+
+//operators.
+
+let e = 15
+let b = 20
+let c = e+b
+console.log('c:', c) //c: 35
+
+
+let g = 87
+let h= 10
+let i = g*h
+console.log('i:', i)   //i: 870
+
+let r = 80
+let s = 5
+let t = r/s
+console.log('t:', t)   //t: 16
+
+let f= 85
+let k = 45
+let j = f-k
+console.log('j:', j)  //j: 40
+
+//string
+
+let tom = "john"
+console.log('tom:', tom) //tom: john
+
+let str = "david"
+console.log('str:', str)  //str: david
